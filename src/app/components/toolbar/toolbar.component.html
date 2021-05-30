@@ -1,0 +1,36 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"><div class="toolbar">
+  <img src="/assets/bookimage/education.svg" class="logo" routerLink="/Displaybook" />
+  <span class="title">BookStore</span>
+  
+  
+  
+  <div class="search">
+      
+        <div class="searchicon">
+          <button mat-icon-button fxHide.xs="true">
+            <mat-icon style="color: #9D9D9D; transform: scale(1.20);"
+              >search</mat-icon
+            >
+          </button>
+        </div>
+        <div class="searchboxinput">
+        
+          <input  type="text" placeholder="Search" [(ngModel)]="bookName"
+          (input)="bookSearch()" class="" style="  display: flex;height: 30px; width: 500px;margin-top: 10px;border-left: transparent; border-radius: 0em;border: none;outline: none;margin-left: 7.5%;" />
+        </div>
+      
+    </div>
+
+
+    <div class="cart" >
+      <mat-label class="label">cart</mat-label> 
+      <a routerLink="/cart">
+        
+          <img src="/assets/bookimage/supermarket.svg"
+          style=" display: flex; margin-left: 0px; margin-top: 5px;height: 34px;width: 34px;"/>
+      </a>
+      <span (click) = "function" matBadge="{{output}}" matBadgeOverlap="false" style="color: white;"></span>
+    </div>
+
+</div>
+<!-- <app-displaybook></app-displaybook> -->

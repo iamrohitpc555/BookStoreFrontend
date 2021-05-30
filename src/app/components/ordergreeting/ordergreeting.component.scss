@@ -1,0 +1,80 @@
+body {
+    height: 100%;
+    width: 100%;
+    //   background-image: url("../../assets/greeting.png");
+  }
+  .greeting1 {
+    margin-top: 50px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .message {
+    position: absolute;
+    top: 245px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: xx-large;
+    color: black;
+  }
+  .greeting2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+  }
+  .contact-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(172, 170, 170);
+    padding: 30px;
+  }
+  .contactus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .mat-card {
+    box-shadow: 1px 2px 2px 2px #04ffff;
+  }
+  .email {
+    height: 8rem;
+    width: 12rem;
+  }
+  mat-card-content {
+    padding: 30px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 84%;
+    color: #333232;
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 16px;
+    width: 22.22%;
+  }
+  tr:nth-child(odd) {
+    background-color: #dcdcdc;
+  }
